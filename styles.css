@@ -50,6 +50,7 @@ a {
   margin-left: auto;
   margin-right: auto;
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .items {
@@ -72,31 +73,38 @@ a {
   margin-top: 10px;
 }
 
-/* .header h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 6;
-  }
+.locations {
+  background-image: url(images/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  align-items: center;
 
+}
 
+.location-boxes {
+  display: flex;
+  justify-content: center;
+}
 
-.mission h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 6;
-  }
+.location-box {
+  width: 300px;
+  /* height: 300px; */
+  background-color: black;
+  margin-left: 20px;
+  margin-right: 20px;
+}
 
-.teatype {
-    background-color: #9041de;
-    height: 200px;
-  }
+.locations h2 {
+  width: 100%;
+  padding-top: 65px;
+}
 
+/*
 
-  .locations {
-    background-color: #8fec51;
-    height: 200px;
+  
   }
 
 .locations h1 {

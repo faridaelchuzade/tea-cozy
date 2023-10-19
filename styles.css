@@ -1,7 +1,7 @@
 body {
   font-family: Helvetica;
   font-size: 22px;
-  color: rgb(142, 140, 139);
+  color: seashell;
   background-color: black;
   opacity: 0.9;
 }
@@ -21,11 +21,27 @@ body {
 }
 
 a {
-  color: rgb(142, 140, 139);
+  color: seashell;
 }
 
 .logo {
   height: 50px;
+}
+
+.mission {
+  background-image: url(images/img-mission-background.jpg);
+  height: 700px;
+  width: 1200px;
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.mission-header-container {
+  background-color: black;
+  text-align: center;
+  width: 100%;
 }
 
 /* .header h1 {
@@ -35,10 +51,7 @@ a {
     line-height: 6;
   }
 
-.mission {
-    background-color: #5165ea;
-    height: 700px;
-  }
+
 
 .mission h1 {
     display: flex;

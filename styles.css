@@ -1,0 +1,59 @@
+.header {
+    background-color: #35e4db;
+    height: 69px;
+  }
+
+.header h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+  }
+
+.mission {
+    background-color: #5165ea;
+    height: 700px;
+  }
+
+.mission h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+  }
+
+.teatype {
+    background-color: #9041de;
+    height: 200px;
+  }
+
+.teatype h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+  }
+
+  .locations {
+    background-color: #8fec51;
+    height: 200px;
+  }
+
+.locations h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+  }
+
+  .footer {
+    background-color: #f07d7d;
+    height: 200px;
+  }
+
+.footer h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 6;
+  }

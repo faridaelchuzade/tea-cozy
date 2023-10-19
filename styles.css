@@ -36,12 +36,40 @@ a {
   align-items: center;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 100px;
 }
 
 .mission-header-container {
   background-color: black;
   text-align: center;
   width: 100%;
+}
+
+.teatype {
+  width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.item {
+  width: 300px;
+  margin: 10px;
+}
+
+.item img {
+  height: 200px;
+  width: 300px;
+}
+
+.item h4 {
+  margin-top: 10px;
 }
 
 /* .header h1 {
@@ -65,12 +93,6 @@ a {
     height: 200px;
   }
 
-.teatype h1 {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 6;
-  }
 
   .locations {
     background-color: #8fec51;
